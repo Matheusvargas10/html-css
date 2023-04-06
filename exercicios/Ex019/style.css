@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body{
+    background-color: #8495F9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.principal{
+    background-color: aliceblue;
+}
+.basico{
+    background-color: #1C2978;
+    color: white;
+}
+.medio{
+    background-color: #2d355e;
+    color: white;
+}
+.avancado{
+    background-color: #0d133a;
+    color: aliceblue;
+}
+#p{
+    background-color: rgb(77, 60, 38);
+    text-align: left;
+}

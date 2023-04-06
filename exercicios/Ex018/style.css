@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600&display=swap');
+
+body{
+    font-size:16px;
+    font-family:'Alkatra';
+    
+   
+}
+p{
+    text-align: justify;
+}
+h1, h2{
+    text-align: center;
+}
