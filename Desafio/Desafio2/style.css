@@ -71,7 +71,7 @@ a:hover{
    
 }  
 main{
-    min-width:400px ;
+    min-width:300px ;
     max-width:800px;
     margin: auto;
     background-color: antiquewhite;
