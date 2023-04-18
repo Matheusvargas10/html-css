@@ -60,17 +60,21 @@ section.img1 > p{
     background-color: rgba(34, 34, 34, 0.541);
     color: white;
     width: 450px;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 section.img2 > p{
     background-color: rgba(34, 34, 34, 0.541);
     color: white;
     width: 450px;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .img1{
     background-color: black;
     background-image: url("img/background001.jpg");
-    background-position: center center;
+    background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
