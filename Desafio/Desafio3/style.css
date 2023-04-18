@@ -38,9 +38,11 @@ header  p{
 
 header a {
     text-decoration: none;
+    color: azure;
 }
 header a:hover{
     text-decoration: underline;
+    color: white;
 }
 header a:active{
     color: rgb(37, 96, 124);
@@ -87,7 +89,12 @@ footer{
     background-color: rgba(58, 57, 57, 0.815);
     text-align: center;
     padding: 10px;
-}
+    }
 footer a{
     text-decoration: none;
+    color: black;
+
+}
+footer a:hover{
+    color: white;
 }
