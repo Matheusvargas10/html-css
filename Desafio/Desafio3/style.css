@@ -17,7 +17,7 @@
 
 body{
     background-color: cornflowerblue;
-    min-height: 100vh;
+    height: 100vh;
 }
 
 header{
@@ -51,8 +51,8 @@ section.img > p{
 }
 
 .img{
-    background-color: black;
-    background-image: url("img/background001.jpg");
+     background-color: black;
+    background-image: url("img/background002.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
