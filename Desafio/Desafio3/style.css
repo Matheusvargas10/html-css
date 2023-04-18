@@ -12,11 +12,11 @@
 
 *{
     margin: 0px;
-    padding: 0px
+    padding: 0px;
 }
 
 body{
-    background-color: cornflowerblue;
+    background-color: darkgray;
     height: 100vh;
 }
 
@@ -31,32 +31,57 @@ header > h1{
     font-family:var(--fonte2);
     padding-top: 50px;
 }
-header > p{
+header  p{
     padding-bottom: 50px;
     font-family: var(--fonte3);
 }
+
+header a {
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+header a:active{
+    color: rgb(37, 96, 124);
+}
 section{
     font-family: var(--fonte3);
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
     line-height: 2.5em;
     padding-left: 30px;
     font-size: 1.5em;
 }
 
-section.img > p{
+section.img1 > p{
     background-color: rgba(34, 34, 34, 0.541);
     color: white;
-    width: 300px;
+    width: 450px;
 }
 
-.img{
-     background-color: black;
+section.img2 > p{
+    background-color: rgba(34, 34, 34, 0.541);
+    color: white;
+    width: 450px;
+}
+.img1{
+    background-color: black;
+    background-image: url("img/background001.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.img2{
+    background-color: black;
     background-image: url("img/background002.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+
+
 }
 footer{
     background-color: rgba(58, 57, 57, 0.815);
