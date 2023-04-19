@@ -37,18 +37,12 @@ section{
     font-family: var(--fonte3);
     padding-bottom: 45px;
 }
-section.normal{
-
-}
-
 section.imagem p{
     background-color: rgba(146, 146, 146, 0.74);
     width: 425px;
-
 }
 section.imagem{
     background-color: rgb(131, 130, 130);
-
 }
 footer{
     background-color: black;
