@@ -9,12 +9,10 @@
     --fonte2: 'Passion One', cursive;
     --fonte3: 'Sriracha', cursive;
 }
-
 *{
     margin: 0px;
     padding: 0px;
 }
-
 body, html{
     background-color: darkgray;
     height: 100vh;
@@ -27,8 +25,42 @@ header{
 }
 header a {
     color: white;
+    text-decoration: none;
 }
 header a:hover{
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
+}
+section{
+    padding: 20px;
+    font-size: 1.5em;
+    font-family: var(--fonte3);
+    padding-bottom: 45px;
+}
+section.normal{
+
+}
+
+section.imagem p{
+    background-color: rgba(146, 146, 146, 0.74);
+    width: 425px;
+
+}
+section.imagem{
+    background-color: rgb(131, 130, 130);
+
+}
+footer{
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+    font-size: 1.1em;
 }
