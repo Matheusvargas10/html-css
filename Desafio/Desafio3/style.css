@@ -40,7 +40,7 @@ section{
 }
 section.imagem p{
     background-color: rgba(43, 43, 43, 0.74);
-    width: 425px;
+    width: 300px;
     color: white;
     padding: 5px;
  }
@@ -54,7 +54,13 @@ section#img1{
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+section#img2{
+    background-image: url("img/background002.jpg");
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 footer{
     background-color: black;
