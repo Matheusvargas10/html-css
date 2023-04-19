@@ -42,10 +42,20 @@ section.imagem p{
     background-color: rgba(43, 43, 43, 0.74);
     width: 425px;
     color: white;
-}
+    padding: 5px;
+ }
 section.imagem{
     background-color: rgb(131, 130, 130);
 }
+section#img1{
+    background-image: url("img/background001.jpg");
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
 footer{
     background-color: black;
     padding: 15px;
