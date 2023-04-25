@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios 4</title>
+</head>
+<body>
+    <form action="" method="get" autocomplete="on">
+         <fieldset>
+            <legend>Esporte </legend>
+            <label for="ifut">Futebol</label>
+            <input type="checkbox" name="fut" id="ifut"> <br>
+            <label for="icori">Corrida</label>
+            <input type="checkbox" name="cor" id="icori"> <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Telefone para contato</legend>
+            <label for="itel">Telefone</label>
+            <input type="tel" name="tel" id="itel" autocomplete="tel" > <br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Melhor Endereço de Email </legend>
+            <label for="iemail">Email </label>
+            <input type="email" name="email" id="iemail" required autocomplete="email"> <br>
+        </fieldset>
+        <fieldset>
+            <legend>SEXO</legend>
+            <label for="sex">Masculino</label>
+            <input type="radio" name="s" id="sex" value="M">
+            <label for="fsex">Feminino</label>
+            <input type="radio" name="s" id="fsex" value="F">
+                    
+        </fieldset> 
+
+        <fieldset>
+            <legend>Nome completo</legend>
+            <label for="inome">Nome</label>
+            <input type="text" name="nome" id="inome">
+        </fieldset>
+            <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+            </p>
+
+        </fieldset>
+        <fieldset>
+            <legend>Form 006</legend>
+            <p>
+                <label for="icor">Cor: </label>
+                <input type="color" name="cor" id="icor">
+            </p>
+             <p>
+                <label for="inivel">Nivel</label><input type="range" name="nivel" id="inivel" min="0" max="10" value="9">
+            </p>
+            <p>
+                <label for="ifoto">Foto de Perfil</label>
+                <input type="file" name="foto" id="ifoto">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+        
+        </form>
+</body>
+</html>

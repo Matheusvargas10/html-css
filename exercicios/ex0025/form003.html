@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 3</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="inome">Nome completo</label>
+            <input type="text" name="nome" id="inome" autocomplete="name" placeholder="Nome Completo" minlength="5">
+        </p>
+        <p>
+            <label for="imes">Mes</label>
+            <input type="month" name="mes" id="imes" min="2015-01" required>
+        </p>
+        <p>
+            <label for="imedia">Media</label>
+            <input type="number" name="media" id="imedia" step="0.1" min="0" max="10">
+        </p>
+        <p>
+            <label for="idia">Dia da prova</label>
+            <input type="date" name="dia" id="idia">
+        </p>
+        <p>
+            
+        </p>
+        <p>
+            <input type="submit" value="ENVIAR">
+            <input type="reset" value="LIMPAR">
+        </p>
+    </form>
+</body>
+</html>
