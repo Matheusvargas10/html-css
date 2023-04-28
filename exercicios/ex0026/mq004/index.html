@@ -7,6 +7,7 @@
     <title>Menu Responsivo</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <link rel="stylesheet" href="estilos/media-query.css">
     <style>
         *{
             padding: 0px;
@@ -18,7 +19,7 @@
         }
         header{
             background-color: lightgrey;
-            padding: 14px;
+            padding-top: 7px;
         }
         header h1 {
             text-align: center;
@@ -38,39 +39,38 @@
             
         }
         #menu:hover{
-            border-radius: 5px;
             background-color: darkgrey;
         }
         menu{
+            display: block;
             background-color: lightgray;
             padding-bottom: 10px;
-            display: none;
-           
+                       
         }
         menu  li{
             text-align: center;
             background-color: darkgrey;
             padding: 10px;
-            border-radius: 5px ;
             text-decoration: dashed;
-        }
-        menu ul {
             
+        }
+        menu > ul {
+            display: flex;
             list-style-type: none;
+            border-radius: 2px;
         }
         menu a {
             display: block;
             text-decoration: none;
             color: rgb(41, 40, 40);
-            border-top: 1px solid black;
-            border-radius: 10px;
-            
+            margin-left: 10px;
+                         
         }
         menu ul :hover{
             background-color: rgb(54, 60, 145);
             color: rgb(212, 212, 212);
             text-decoration: underline;
-            border-radius: 5px;
+            border-radius: 2px;
         }
         section{
             width: 80%;
