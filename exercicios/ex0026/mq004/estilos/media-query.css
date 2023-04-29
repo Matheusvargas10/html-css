@@ -70,4 +70,11 @@ section > p {
 }
 footer{
     background-color: lightgrey;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+footer a {
+    text-decoration: none;
+    color: black;
 }
